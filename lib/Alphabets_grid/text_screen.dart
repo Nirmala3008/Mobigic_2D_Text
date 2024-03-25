@@ -32,7 +32,7 @@ class _TextSearchScreenState extends State<TextSearchScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Text Search'),
+        title: Text('2D Grid'),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -75,7 +75,7 @@ class _TextSearchScreenState extends State<TextSearchScreen> {
                   fillColor: Colors.white,
 
 
-                  labelText: 'Search for a word',
+                  labelText: 'Search an alphabet',
                   suffixIcon: IconButton(
                     icon: Icon(Icons.search),
                     onPressed: searchText,
